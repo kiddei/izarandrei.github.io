@@ -1,15 +1,15 @@
 h1{
-  font-size: 60px;
+  font-size: 63px;
  }
 
 .main{
-    margin: 0px 100px 40px 300px;
+    margin: 0px 100px 40px 340px;
     display: block;
     padding: 30px;
 }
 
 .header{
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 
@@ -93,7 +93,7 @@ hr.hr-resume{
 }
 
 .footer-info{
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .icons{
@@ -101,7 +101,7 @@ hr.hr-resume{
 }
 
 .logo{
-  width: 30px;
+  width: 33px;
   margin: 0px 5px 0px 0px;
   cursor: pointer;
 }
