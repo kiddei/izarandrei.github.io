@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="resume.css">
+  <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="website-title">
+        <a href="index.html" > <img class="icon-title" src="assets/java.png" alt="" ></a>
+        <a href="index.html" style="text-decoration: none;"> <div><span id="name"> Izar Castillo</span><span style="margin-left: 12px;">Programmer</span></div></a>  
+    </div>
+    
+    <div class="nav-bar">
+      <a href="cv.html"><div id="nav-bar-button">Resume</div></a>
+      <div id="nav-bar-button-slash">|</div>
+      <a href="projects.html" style="text-decoration: none;"> <div id="nav-bar-button">Projects</div></a>
+      <div id="nav-bar-button-slash">|</div>
+      <div id="nav-bar-button" style="color: #EEA302; text-decoration: none;">Contact</div>
+    </div>
+  </header>
+
+  <!-- BODY OF THE PAGE --> 
+  <section class="main"> 
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <div class="contact-left-title">
+        <h1>Contact</h1> 
+        <div id="project-brief" style="margin-left: 10px;">Looking forward to hearing from you</div> 
+        <hr>
+      </div>
+      <input type="hidden" name="access_key" value="bd4f025e-1bb0-437f-a94e-efd8548b6edc">
+      <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+      <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+      <input type="text" name="subject" placeholder="Subject" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+      <button type="submit">Submit <img src="assets/right-arrow.png" alt=""></button>
+    </form>
+    <div class="contact-right">
+
+    </div>
+   
+  </section>
+
+
+
+
+
+  <hr class="hr-footer-resume" color="#DDDDDD" align="center" >
+   
+    <footer class="footer">
+      <div class="phone-container">
+        <div class="footer-text">Phone</div>
+        <div class="footer-info">+63 945 760 0330</div>
+      </div>
+
+      <div class="email-container">
+        <div class="footer-text">Email</div>
+        <div class="footer-info">izarandrei2@gmail.com</div>
+      </div>
+
+      <div class="follow-container">
+        <div class="footer-text">Follow Me</div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/izar-andrei-castillo-2460a7310"><img class="logo" src="assets/linkedin.png" onmouseover="this.src='assets/linkedin-colored.png'" onmouseout="this.src='assets/linkedin.png'" alt=""></a>
+            <a href="https://www.facebook.com/IzarCstllo/"><img class="logo" src="assets/facebook.png" onmouseover="this.src='assets/facebook-colored.png'" onmouseout="this.src='assets/facebook.png'" alt=""></a> 
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

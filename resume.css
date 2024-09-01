@@ -1,0 +1,80 @@
+.main-resume{
+  margin: 0px 100px 0px 300px;
+  display: flex;
+  padding: 30px;
+}
+
+
+h1.resume-type{
+  font-size: 25px;
+}
+
+.resume-title{
+  width: 450px;
+  margin: 22px 220px 0px 0px;
+}
+
+
+.resume-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-part{
+  margin: 30px 60px 8% 0px;
+  font-size: 16px;  
+  display: flex;
+}
+
+ .resume-year{
+      margin: 0px 50px 0px 0px;
+      width: 150px;
+}
+
+.resume-desc{
+      margin: 0px 0px 0px 0px;
+      width: 300px;
+} 
+
+hr.hr-resume{
+  margin-top: 0px;
+ 
+}
+
+.desc-experience, .skills{
+  margin: 8px 0px 0px 15px;
+}
+
+  ul{
+    margin: 8px 0px 0px 15px;
+
+  }
+
+  li{
+    color: rgb(121, 117, 117);
+    font-size: 14px;
+  }
+  
+
+li.skills{
+  color: black;
+  font-size: 16px;
+}
+
+.card-cert{
+  box-shadow: 4px 8px 12px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 20px; 
+  max-width:60%;  
+  margin-bottom: 30px;
+}
+
+.cert-title{
+  font-size: 16px;
+  color: rgb(78, 77, 77);
+
+}
+
+.hr-footer-resume{
+  margin: 110px 1.2% 0px 1.2%;
+}
